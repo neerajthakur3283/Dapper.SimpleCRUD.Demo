@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.SimpleCRUD.API", "Dapper.SimpleCRUD.API\Dapper.SimpleCRUD.API.csproj", "{DF774B0C-3185-4BD6-A8B0-9517BFC1F993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.SimpleCRUD.Core", "Dapper.SimpleCRUD.Core\Dapper.SimpleCRUD.Core.csproj", "{A11D44E1-06E7-4F84-BE58-539A92B9A228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF774B0C-3185-4BD6-A8B0-9517BFC1F993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF774B0C-3185-4BD6-A8B0-9517BFC1F993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF774B0C-3185-4BD6-A8B0-9517BFC1F993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF774B0C-3185-4BD6-A8B0-9517BFC1F993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11D44E1-06E7-4F84-BE58-539A92B9A228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11D44E1-06E7-4F84-BE58-539A92B9A228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11D44E1-06E7-4F84-BE58-539A92B9A228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11D44E1-06E7-4F84-BE58-539A92B9A228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66AE5A9D-6E7B-4CD2-AFAC-C530DA108B68}
+	EndGlobalSection
+EndGlobal
