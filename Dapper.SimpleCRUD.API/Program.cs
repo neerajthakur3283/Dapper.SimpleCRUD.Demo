@@ -1,6 +1,10 @@
+using Dapper.SimpleCRUD.Core.Interfaces;
+using Dapper.SimpleCRUD.Core.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddTransient<IEmployeeServices, EmployeeServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
